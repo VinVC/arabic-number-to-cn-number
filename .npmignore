@@ -1,0 +1,10 @@
+/*
+!/lib
+!/dist
+**/test/
+**/*.spec.js
+!package.json
+!LICENSE
+!README.md
+!index.js
+!index.d.ts
