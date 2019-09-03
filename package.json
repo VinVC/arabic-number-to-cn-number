@@ -1,6 +1,6 @@
 {
   "name": "arabicnumber-to-cnnumber",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "translate arabic number to chinese number",
   "main": "index.js",
   "author": "vincent liu",
