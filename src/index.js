@@ -42,3 +42,7 @@ export default function araToChineseNum(num) {
   if (noWan.toString().length < 4) noWan = '0' + noWan
   return overWan ? getWan(overWan) + '万' + getWan(noWan) : getWan(num)
 }
+
+export const stringToArr = (str) => {
+  return str.split('')
+}
