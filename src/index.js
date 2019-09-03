@@ -4,8 +4,10 @@
  * @description 将阿拉伯数字转为汉字
  * 
  */
-export default function araToChineseNum(num) {
-  let changeNum = ['零', '一', '二', '三', '四', '五', '六', '七', '八', '九'] //changeNum[0] = "零"
+export function araToCnNum(num) {
+  if(!num && num !== 0) throw new Error('入参不能为空')
+  if(typeof num === 'object' || parseInt(num) !== parseInt(num)) throw new Error('入参必须为Number或Number字符串')
+  let changeNum = ['零', '一', '二', '三', '四', '五', '六', '七', '八', '九']
   let unit = ['', '十', '百', '千', '万']
   num = parseInt(num)
   let getWan = (temp) => {
@@ -20,8 +22,8 @@ export default function araToChineseNum(num) {
           (i === 0 && strArr[i] === 0
             ? ''
             : i > 0 && strArr[i] === 0 && strArr[i - 1] === 0
-            ? ''
-            : (i === 0 ? changeNum[strArr[i]] : '') +
+              ? ''
+              : (i === 0 ? changeNum[strArr[i]] : '') +
               (strArr[i] === 0 ? unit[0] : unit[i])) + newNum
       }
     } else {
@@ -30,8 +32,8 @@ export default function araToChineseNum(num) {
           (i === 0 && strArr[i] === 0
             ? ''
             : i > 0 && strArr[i] === 0 && strArr[i - 1] === 0
-            ? ''
-            : changeNum[strArr[i]] + (strArr[i] === 0 ? unit[0] : unit[i])) +
+              ? ''
+              : changeNum[strArr[i]] + (strArr[i] === 0 ? unit[0] : unit[i])) +
           newNum
       }
     }
@@ -44,5 +46,6 @@ export default function araToChineseNum(num) {
 }
 
 export const stringToArr = (str) => {
+  if(typeof str !== 'string') throw new Error('请传入String')
   return str.split('')
 }

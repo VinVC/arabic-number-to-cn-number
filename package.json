@@ -1,7 +1,7 @@
 {
-  "name": "arabicnumber-to-cnnumber",
+  "name": "vin-tools",
   "version": "1.0.2",
-  "description": "translate arabic number to chinese number",
+  "description": "vin's tools such as translating arabic number to chinese number, etc",
   "main": "index.js",
   "author": "vincent liu",
   "license": "MIT",
