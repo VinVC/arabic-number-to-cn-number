@@ -19,15 +19,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/VinVC/arabic-number-to-cn-number.git"
+    "url": "https://github.com/VinVC/vin-tools.git"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "codecov": "^3.5.0",
     "eslint": "^6.3.0",
     "jest": "^24.9.0",
-    "babel-loader": "^8.0.6",
     "webpack": "^4.39.3",
     "webpack-cli": "^3.3.7"
   }
