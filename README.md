@@ -1,5 +1,5 @@
 # vin-tools
-
+[![codecov](https://codecov.io/gh/VinVC/vin-tools/branch/master/graph/badge.svg)](https://codecov.io/gh/VinVC/vin-tools)
 vin's tools such as translating arabic number to chinese number, etc. 
 
 In update...
