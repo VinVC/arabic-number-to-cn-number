@@ -18,6 +18,7 @@ branches:
 script:
   - yarn build
   - yarn test
-  
+
 after_success:
   - codecov #运行codecov
+  - bash <(curl -s https://codecov.io/bash) -t 4050092d-f86f-46ba-9077-9cbead709950
