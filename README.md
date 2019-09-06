@@ -27,4 +27,3 @@ araToCnNum(19) //'十九'
 | Function | Input | Description
 |:-:|:-:|:-:|
 | araToCnNum | number | 将阿拉伯数字转换为中文数字 |
-
