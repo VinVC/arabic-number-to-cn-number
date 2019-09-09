@@ -1,7 +1,7 @@
 # vin-tools
 [![Build Status](https://travis-ci.org/VinVC/vin-tools.svg?branch=master)](https://travis-ci.org/VinVC/vin-tools)
 [![codecov](https://codecov.io/gh/VinVC/vin-tools/branch/master/graph/badge.svg)](https://codecov.io/gh/VinVC/vin-tools)
-![npm](https://img.shields.io/npm/v/vin-tools)
+[![npm](https://img.shields.io/npm/v/vin-tools)][https://npmjs.org/package/vin-tools]
 
 vin's tools such as translating arabic number to chinese number, etc. 
 
